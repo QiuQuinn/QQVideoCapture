@@ -1,0 +1,537 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CFE8207F1C4347730095345A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CFE8207E1C4347730095345A /* main.m */; };
+		CFE820821C4347730095345A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CFE820811C4347730095345A /* AppDelegate.m */; };
+		CFE820851C4347730095345A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CFE820841C4347730095345A /* ViewController.m */; };
+		CFE820881C4347740095345A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFE820861C4347730095345A /* Main.storyboard */; };
+		CFE8208A1C4347740095345A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CFE820891C4347740095345A /* Assets.xcassets */; };
+		CFE8208D1C4347740095345A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = CFE8208B1C4347740095345A /* LaunchScreen.storyboard */; };
+		CFE820981C4347740095345A /* QQVideoSessionDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFE820971C4347740095345A /* QQVideoSessionDemoTests.m */; };
+		CFE820A31C4347740095345A /* QQVideoSessionDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = CFE820A21C4347740095345A /* QQVideoSessionDemoUITests.m */; };
+		CFE820B31C43486B0095345A /* QQVideoSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = CFE820B21C43486B0095345A /* QQVideoSessionManager.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CFE820941C4347740095345A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFE820721C4347730095345A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFE820791C4347730095345A;
+			remoteInfo = QQVideoSessionDemo;
+		};
+		CFE8209F1C4347740095345A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CFE820721C4347730095345A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CFE820791C4347730095345A;
+			remoteInfo = QQVideoSessionDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CFE8207A1C4347730095345A /* QQVideoSessionDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = QQVideoSessionDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFE8207E1C4347730095345A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CFE820801C4347730095345A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CFE820811C4347730095345A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CFE820831C4347730095345A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		CFE820841C4347730095345A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		CFE820871C4347730095345A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		CFE820891C4347740095345A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		CFE8208C1C4347740095345A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		CFE8208E1C4347740095345A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFE820931C4347740095345A /* QQVideoSessionDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QQVideoSessionDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFE820971C4347740095345A /* QQVideoSessionDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQVideoSessionDemoTests.m; sourceTree = "<group>"; };
+		CFE820991C4347740095345A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFE8209E1C4347740095345A /* QQVideoSessionDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = QQVideoSessionDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFE820A21C4347740095345A /* QQVideoSessionDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = QQVideoSessionDemoUITests.m; sourceTree = "<group>"; };
+		CFE820A41C4347740095345A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CFE820B11C43486B0095345A /* QQVideoSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = QQVideoSessionManager.h; path = QQVideoSessionManager/QQVideoSessionManager.h; sourceTree = "<group>"; };
+		CFE820B21C43486B0095345A /* QQVideoSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = QQVideoSessionManager.m; path = QQVideoSessionManager/QQVideoSessionManager.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CFE820771C4347730095345A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFE820901C4347740095345A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFE8209B1C4347740095345A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CFE820711C4347730095345A = {
+			isa = PBXGroup;
+			children = (
+				CFE8207C1C4347730095345A /* QQVideoSessionDemo */,
+				CFE820961C4347740095345A /* QQVideoSessionDemoTests */,
+				CFE820A11C4347740095345A /* QQVideoSessionDemoUITests */,
+				CFE8207B1C4347730095345A /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CFE8207B1C4347730095345A /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CFE8207A1C4347730095345A /* QQVideoSessionDemo.app */,
+				CFE820931C4347740095345A /* QQVideoSessionDemoTests.xctest */,
+				CFE8209E1C4347740095345A /* QQVideoSessionDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CFE8207C1C4347730095345A /* QQVideoSessionDemo */ = {
+			isa = PBXGroup;
+			children = (
+				CFE820B01C4348350095345A /* QQVideoSessionManager */,
+				CFE820801C4347730095345A /* AppDelegate.h */,
+				CFE820811C4347730095345A /* AppDelegate.m */,
+				CFE820831C4347730095345A /* ViewController.h */,
+				CFE820841C4347730095345A /* ViewController.m */,
+				CFE820861C4347730095345A /* Main.storyboard */,
+				CFE820891C4347740095345A /* Assets.xcassets */,
+				CFE8208B1C4347740095345A /* LaunchScreen.storyboard */,
+				CFE8208E1C4347740095345A /* Info.plist */,
+				CFE8207D1C4347730095345A /* Supporting Files */,
+			);
+			path = QQVideoSessionDemo;
+			sourceTree = "<group>";
+		};
+		CFE8207D1C4347730095345A /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CFE8207E1C4347730095345A /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CFE820961C4347740095345A /* QQVideoSessionDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				CFE820971C4347740095345A /* QQVideoSessionDemoTests.m */,
+				CFE820991C4347740095345A /* Info.plist */,
+			);
+			path = QQVideoSessionDemoTests;
+			sourceTree = "<group>";
+		};
+		CFE820A11C4347740095345A /* QQVideoSessionDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				CFE820A21C4347740095345A /* QQVideoSessionDemoUITests.m */,
+				CFE820A41C4347740095345A /* Info.plist */,
+			);
+			path = QQVideoSessionDemoUITests;
+			sourceTree = "<group>";
+		};
+		CFE820B01C4348350095345A /* QQVideoSessionManager */ = {
+			isa = PBXGroup;
+			children = (
+				CFE820B11C43486B0095345A /* QQVideoSessionManager.h */,
+				CFE820B21C43486B0095345A /* QQVideoSessionManager.m */,
+			);
+			name = QQVideoSessionManager;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CFE820791C4347730095345A /* QQVideoSessionDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFE820A71C4347740095345A /* Build configuration list for PBXNativeTarget "QQVideoSessionDemo" */;
+			buildPhases = (
+				CFE820761C4347730095345A /* Sources */,
+				CFE820771C4347730095345A /* Frameworks */,
+				CFE820781C4347730095345A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = QQVideoSessionDemo;
+			productName = QQVideoSessionDemo;
+			productReference = CFE8207A1C4347730095345A /* QQVideoSessionDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CFE820921C4347740095345A /* QQVideoSessionDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFE820AA1C4347740095345A /* Build configuration list for PBXNativeTarget "QQVideoSessionDemoTests" */;
+			buildPhases = (
+				CFE8208F1C4347740095345A /* Sources */,
+				CFE820901C4347740095345A /* Frameworks */,
+				CFE820911C4347740095345A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFE820951C4347740095345A /* PBXTargetDependency */,
+			);
+			name = QQVideoSessionDemoTests;
+			productName = QQVideoSessionDemoTests;
+			productReference = CFE820931C4347740095345A /* QQVideoSessionDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		CFE8209D1C4347740095345A /* QQVideoSessionDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CFE820AD1C4347740095345A /* Build configuration list for PBXNativeTarget "QQVideoSessionDemoUITests" */;
+			buildPhases = (
+				CFE8209A1C4347740095345A /* Sources */,
+				CFE8209B1C4347740095345A /* Frameworks */,
+				CFE8209C1C4347740095345A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CFE820A01C4347740095345A /* PBXTargetDependency */,
+			);
+			name = QQVideoSessionDemoUITests;
+			productName = QQVideoSessionDemoUITests;
+			productReference = CFE8209E1C4347740095345A /* QQVideoSessionDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CFE820721C4347730095345A /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0720;
+				ORGANIZATIONNAME = QuinnQiu;
+				TargetAttributes = {
+					CFE820791C4347730095345A = {
+						CreatedOnToolsVersion = 7.2;
+					};
+					CFE820921C4347740095345A = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = CFE820791C4347730095345A;
+					};
+					CFE8209D1C4347740095345A = {
+						CreatedOnToolsVersion = 7.2;
+						TestTargetID = CFE820791C4347730095345A;
+					};
+				};
+			};
+			buildConfigurationList = CFE820751C4347730095345A /* Build configuration list for PBXProject "QQVideoSessionDemo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CFE820711C4347730095345A;
+			productRefGroup = CFE8207B1C4347730095345A /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CFE820791C4347730095345A /* QQVideoSessionDemo */,
+				CFE820921C4347740095345A /* QQVideoSessionDemoTests */,
+				CFE8209D1C4347740095345A /* QQVideoSessionDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CFE820781C4347730095345A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFE8208D1C4347740095345A /* LaunchScreen.storyboard in Resources */,
+				CFE8208A1C4347740095345A /* Assets.xcassets in Resources */,
+				CFE820881C4347740095345A /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFE820911C4347740095345A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFE8209C1C4347740095345A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CFE820761C4347730095345A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFE820851C4347730095345A /* ViewController.m in Sources */,
+				CFE820821C4347730095345A /* AppDelegate.m in Sources */,
+				CFE820B31C43486B0095345A /* QQVideoSessionManager.m in Sources */,
+				CFE8207F1C4347730095345A /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFE8208F1C4347740095345A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFE820981C4347740095345A /* QQVideoSessionDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CFE8209A1C4347740095345A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CFE820A31C4347740095345A /* QQVideoSessionDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CFE820951C4347740095345A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFE820791C4347730095345A /* QQVideoSessionDemo */;
+			targetProxy = CFE820941C4347740095345A /* PBXContainerItemProxy */;
+		};
+		CFE820A01C4347740095345A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CFE820791C4347730095345A /* QQVideoSessionDemo */;
+			targetProxy = CFE8209F1C4347740095345A /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CFE820861C4347730095345A /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFE820871C4347730095345A /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		CFE8208B1C4347740095345A /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CFE8208C1C4347740095345A /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CFE820A51C4347740095345A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CFE820A61C4347740095345A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CFE820A81C4347740095345A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QQVideoSessionDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.quinnqiu.QQVideoSessionDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		CFE820A91C4347740095345A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = QQVideoSessionDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.quinnqiu.QQVideoSessionDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		CFE820AB1C4347740095345A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QQVideoSessionDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.quinnqiu.QQVideoSessionDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QQVideoSessionDemo.app/QQVideoSessionDemo";
+			};
+			name = Debug;
+		};
+		CFE820AC1C4347740095345A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = QQVideoSessionDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.quinnqiu.QQVideoSessionDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/QQVideoSessionDemo.app/QQVideoSessionDemo";
+			};
+			name = Release;
+		};
+		CFE820AE1C4347740095345A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QQVideoSessionDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.quinnqiu.QQVideoSessionDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QQVideoSessionDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Debug;
+		};
+		CFE820AF1C4347740095345A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = QQVideoSessionDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.quinnqiu.QQVideoSessionDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = QQVideoSessionDemo;
+				USES_XCTRUNNER = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CFE820751C4347730095345A /* Build configuration list for PBXProject "QQVideoSessionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFE820A51C4347740095345A /* Debug */,
+				CFE820A61C4347740095345A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CFE820A71C4347740095345A /* Build configuration list for PBXNativeTarget "QQVideoSessionDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFE820A81C4347740095345A /* Debug */,
+				CFE820A91C4347740095345A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CFE820AA1C4347740095345A /* Build configuration list for PBXNativeTarget "QQVideoSessionDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFE820AB1C4347740095345A /* Debug */,
+				CFE820AC1C4347740095345A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		CFE820AD1C4347740095345A /* Build configuration list for PBXNativeTarget "QQVideoSessionDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CFE820AE1C4347740095345A /* Debug */,
+				CFE820AF1C4347740095345A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CFE820721C4347730095345A /* Project object */;
+}
